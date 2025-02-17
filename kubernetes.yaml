@@ -51,8 +51,8 @@ kind: HTTPRoute
 metadata:
   name: sseservertest
 spec:
-  hostnames:
-    - <hostname> # TODO: Replace with your hostname
+  # hostnames: # Probably optional
+  # - <hostname> # Probably optional
   parentRefs:
     - group: gateway.networking.k8s.io
       kind: Gateway
